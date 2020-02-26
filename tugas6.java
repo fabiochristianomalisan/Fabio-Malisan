@@ -4,23 +4,26 @@
  * and open the template in the editor.
  */
 package jobsheet.pkg3;
-import java.util.Scanner;
+
 /**
  *
  * @author ACER
  */
-class Tugas2 {
-     String namaMhs;
+public class tugas6 {
+      String namaMhs;
     int nilaiTugas;
     int nilaiKuis;
     int nilaiUAS;
     int nilaiUTS;
+    double total;
     
     double hitungTotalNilai(){
-        int total= (nilaiTugas*30/100) + (nilaiKuis*20/100)+ 
+        total= (nilaiTugas*30/100) + (nilaiKuis*20/100)+ 
                 (nilaiUTS*20/100)+ (nilaiUAS*30/100);
         return total;
     }
+    
+   
 }
 
 

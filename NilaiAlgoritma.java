@@ -4,13 +4,13 @@
  * and open the template in the editor.
  */
 package jobsheet.pkg3;
-import java.util.Scanner;
+
 /**
  *
  * @author ACER
  */
-class Tugas2 {
-     String namaMhs;
+class NilaiAlgoritma {
+    String namaMhs;
     int nilaiTugas;
     int nilaiKuis;
     int nilaiUAS;
@@ -22,5 +22,4 @@ class Tugas2 {
         return total;
     }
 }
-
 
